@@ -15,6 +15,6 @@ public class SceneMenager : MonoBehaviour
     }
     public void TrocaDeTela()
     {
-        SceneManager.LoadScene("game");
+        SceneManager.LoadScene("Game");
     }
 }
