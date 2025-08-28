@@ -4,7 +4,6 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 public class ButtonHit : MonoBehaviour
 {
-    public int contador;
     [SerializeField] TMP_Text countText;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -13,7 +12,7 @@ public class ButtonHit : MonoBehaviour
     }
     public void ClickMorte()
     {
-        contador++;
+        GameData.contador++;
         UpdateUI();
     }
     // Update is called once per frame
@@ -28,6 +27,11 @@ public class ButtonHit : MonoBehaviour
     }
     private void UpdateUI()
     {
-        countText.text = "Mortes: " + contador.ToString();
+        countText.text = "Mortes: " + GameData.contador.ToString();
+    }
+
+    public static class GameData
+    {
+        public static int contador = 0;
     }
 }
