@@ -372,7 +372,7 @@ RectTransform:
   m_GameObject: {fileID: 564017634}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 865653069}
@@ -648,8 +648,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 75, y: -51}
-  m_SizeDelta: {x: 80, y: 64.3249}
+  m_AnchoredPosition: {x: 2.2431, y: -12}
+  m_SizeDelta: {x: 31.4954, y: 25.6102}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &954513538
 MonoBehaviour:
@@ -694,7 +694,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 954513539}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 382257669}
+        m_TargetAssemblyTypeName: ClickerController, Assembly-CSharp
+        m_MethodName: upgradePassivo
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &954513539
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1003,6 +1015,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TotalMortes: 0
+  valorDoClick: 1
+  contador: 0
+  mortesporsegundo: 0
+  tempoEntreAutoClicks: 1
 --- !u!114 &1320296323
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1081,8 +1097,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 100
-  m_fontSizeBase: 100
+  m_fontSize: 35
+  m_fontSizeBase: 35
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1119,7 +1135,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0.47416687, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1149,8 +1165,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 20, y: -15}
-  m_SizeDelta: {x: 563.728, y: 120.5507}
+  m_AnchoredPosition: {x: 605, y: -63}
+  m_SizeDelta: {x: 141, y: 40.106}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &2133183398
 GameObject:
@@ -1187,8 +1203,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 24.877}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -396, y: -167}
-  m_SizeDelta: {x: 73.571, y: 1386.3933}
+  m_AnchoredPosition: {x: -162, y: -48}
+  m_SizeDelta: {x: 24.1641, y: 612.2974}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2133183400
 MonoBehaviour:
@@ -1233,7 +1249,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2133183401}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 382257669}
+        m_TargetAssemblyTypeName: ClickerController, Assembly-CSharp
+        m_MethodName: Upgrades
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2133183401
 MonoBehaviour:
   m_ObjectHideFlags: 0
