@@ -744,6 +744,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TotalMortes: 0
+  valorDoClick: 1
+  contador: 0
+  mortesporsegundo: 0
+  tempoEntreAutoClicks: 1
 --- !u!1 &720178781
 GameObject:
   m_ObjectHideFlags: 0
@@ -1449,7 +1453,7 @@ Transform:
   m_GameObject: {fileID: 1106646001}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.8733, y: -1.3556, z: 0}
+  m_LocalPosition: {x: 6.8733, y: -1.9999999, z: 0}
   m_LocalScale: {x: 0.26670775, y: 4.1289, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2088,7 +2092,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 880, y: -344.88922}
+  m_AnchoredPosition: {x: 880, y: -462.9787}
   m_SizeDelta: {x: 160, y: 154.0997}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2042986507
