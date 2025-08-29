@@ -1189,9 +1189,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1477691821}
-        m_TargetAssemblyTypeName: ButtonHit, Assembly-CSharp
-        m_MethodName: ClickMorte
+      - m_Target: {fileID: 1477691822}
+        m_TargetAssemblyTypeName: ClickerController, Assembly-CSharp
+        m_MethodName: AoClicar
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1593,7 +1593,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3640cf6a54dc274b8b19980b65ba877, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 0}
+  countText: {fileID: 1373771190}
 --- !u!1 &1612677350
 GameObject:
   m_ObjectHideFlags: 0
