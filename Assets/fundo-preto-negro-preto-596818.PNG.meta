@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      fundo-preto-negro-preto-596818_0: 4828597943671822947
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
