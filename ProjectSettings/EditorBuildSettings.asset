@@ -20,6 +20,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Historia2.unity
     guid: 79097c6ce0b06de40a0c3495b6b2efc6
+  - enabled: 1
+    path: Assets/Scenes/Historia3.unity
+    guid: ec5b83d4ce7fb434d9970b22937c221a
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
