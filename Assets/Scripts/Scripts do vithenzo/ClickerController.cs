@@ -5,6 +5,7 @@ using JetBrains.Annotations;
 public class ClickerController : MonoBehaviour
 {
     [SerializeField] TMP_Text countText;
+    int contadorVitoria = 350;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -21,6 +22,11 @@ public class ClickerController : MonoBehaviour
     {
         GameManager.instance.TotalMortes += GameManager.instance.valorDoClick;
         AtualizarTexto();
+
+        if (GameManager.instance.TotalMortes >= contadorVitoria)
+        {
+            SceneManager.LoadScene("História");
+        }
     }
 
     private void AtualizarTexto()
