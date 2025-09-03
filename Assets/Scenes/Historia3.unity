@@ -309,7 +309,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Clique Para Continuar...
+  m_text: Jogar Novamente
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0d1b04718ea812b42835ce2c07d5ac5a, type: 2}
   m_sharedMaterial: {fileID: -5519589950766891097, guid: 0d1b04718ea812b42835ce2c07d5ac5a, type: 2}
